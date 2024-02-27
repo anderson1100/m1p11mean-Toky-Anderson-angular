@@ -11,7 +11,7 @@ export class RequestInterceptor implements HttpInterceptor {
     constructor(private router: Router, private cookieService: CookieService) { }
 
     intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
-        const baseUrl = "http://localhost:3000/api";
+        const baseUrl = "https://m1p11mean-toky-anderson-node.up.railway.app/api";
         const apiReq = req.clone({ url: `${baseUrl}/${req.url}`, withCredentials: true });
 
         //console.log(apiReq.url)

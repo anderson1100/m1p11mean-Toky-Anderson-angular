@@ -9,7 +9,7 @@ export class EmployeService {
 
   constructor(private http: HttpClient) { }
 
-  baseUrl : string = "http://localhost:3000/employe";
+  baseUrl : string = "https://m1p11mean-toky-anderson-node.up.railway.app/employe";
 
 
 
