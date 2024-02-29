@@ -4,7 +4,6 @@ import { DropzoneModule } from 'ngx-dropzone-wrapper';
 import { NgxDropzoneModule } from 'ngx-dropzone';
 import { ManagerService } from '../services/manager.service';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
-import { object } from 'joi';
 
 @Component({
   selector: 'app-manager-personnel',
