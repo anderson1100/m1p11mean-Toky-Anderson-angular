@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class ServiceService {
 
   private apiEmployes = 'https://m1p11mean-toky-anderson-node.up.railway.app/api/client/employes';
-  private apiServices = 'https://m1p11mean-toky-anderson-node.up.railway.app/client/services';
+  private apiServices = 'https://m1p11mean-toky-anderson-node.up.railway.app/api/client/services';
   private apiCategories = 'https://m1p11mean-toky-anderson-node.up.railway.app/api/client/categories';
 
 
